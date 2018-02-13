@@ -8,6 +8,7 @@
 	// 	-Write a function searchMates that, given a query and an array of Mates,
 	//           searche the array of mates for "matching" mate. You will decide what way you want to write in your search algorithm.
 
+
 function makeClassmate(name,gender,age,nationality,favSport)
 {
 	return {
@@ -74,3 +75,4 @@ function searchMates(query,mates)
 		return "The person you are searching for is not found"
 
 }
+
