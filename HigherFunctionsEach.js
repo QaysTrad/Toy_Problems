@@ -5,8 +5,11 @@
           func(array[i]);
         }
     }
-	function absAll(array) {
-	 //your code here
+	var absAll=function(array) 
+	{  
+	  each(array,function(x){if (x<=0)
+	  	{x *-1}
+	  	 }   )
 	}
 
 	/*
@@ -22,6 +25,12 @@
             func(array[i], i);
         }
     }
-	function multiplyOfFour(array) {
-	    //your code here
-	}
+
+var	multiplyOfFour=function(array) 
+{
+	var arr=[]
+	each(array,function(m){if (m%4===0)
+		arr.push(m)
+	})
+	return arr
+	  }
