@@ -63,7 +63,7 @@ return olderOne
 // does that object contain.
 	 //nbOfObjKeys({}) // ==> 0
 	// nbOfObjKeys({name:"housam",age:"3"}) // ==> 2
-
+/*
 nbOfObjKeys(obj){
 
 var x=0
@@ -75,7 +75,7 @@ for (var i = Things.length - 1; i >= 0; i--) {
 
 }
 
-
+*/
 
 // if you finished the above, solve the following:
 // write a function that takes array of strings and returns an array of the strings that have the same length
