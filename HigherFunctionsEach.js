@@ -5,8 +5,18 @@
           func(array[i]);
         }
     }
+
 	function absAll(array) {
 	 //your code here
+	 total = [];
+	 each (array, function (num){
+	 	if (num < 0){
+	 		num=num*-1;
+	 		 total.push(num);
+	 	}
+	 	 total.push(num);
+	 });
+	 return total;
 	}
 
 	/*
@@ -24,4 +34,11 @@
     }
 	function multiplyOfFour(array) {
 	    //your code here
+	    total=[];
+	    each (array, function (num,i){
+             if (num > 4 && num % 4 ===0){
+             	total.push(num);
+             }
+	    });
+     return total;
 	}
