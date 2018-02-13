@@ -6,7 +6,15 @@
         }
     }
 	function absAll(array) {
-	 //your code here
+		var allPos = [];
+	each (array, function(num){
+		if (num < 0) {
+			allPos.push(-num);
+		} else {
+		 allPos.push(num);       
+		}
+	});
+	return allPos;
 	}
 
 	/*
@@ -22,6 +30,12 @@
             func(array[i], i);
         }
     }
-	function multiplyOfFour(array) {
-	    //your code here
-	}
+	function multiplyOfFour(array, i) {
+	    var ofFour = [];
+	    each(array, function(num, i) {
+	    	if (i % 4 === 0) {
+	    		ofFour.push(num * 4);
+	    	}
+	    })
+	    return ofFour;
+	 }
