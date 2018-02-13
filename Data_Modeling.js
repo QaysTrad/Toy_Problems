@@ -8,6 +8,7 @@
 	// 	-Write a function searchMates that, given a query and an array of Mates,
 	//           searche the array of mates for "matching" mate. You will decide what way you want to write in your search algorithm.
 
+
 var classmate0 = {
 	name: Livia,
 	age: 28,
