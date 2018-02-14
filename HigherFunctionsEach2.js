@@ -13,6 +13,15 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
     
 	function pName(argument) {
 		// your code is here
+		var resultArray=[];
+
+		each(argument,function(elementValue,indexValue){
+			if(indexValue%2===0){
+				resultArray.push(elementValue.name)
+			};
+		});
+
+		return resultArray;
 	}
 
 
@@ -42,7 +51,15 @@ printValue(obj_1); =>
         }
     }
     
-    
+   
+
 	function printValue(obj) {
 		// your code is here
+		var resultString="";
+
+		each(obj,function(objKeyValue,ObjKey){
+			resultString+=objKeyValue+"\n"
+		})
+
+		return resultString;
 	}
