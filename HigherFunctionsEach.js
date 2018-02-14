@@ -1,7 +1,10 @@
 	// 1) 'absAll' create function that accept array as input and check the element 
     //     if it's negative make it positive 
+<<<<<<< HEAD
     var negArray=[];
     var multArray=[];
+=======
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
     function each(array, func) {
         for (var i = 0; i < array.length; i++) {
           func(array[i]);
@@ -9,6 +12,7 @@
     }
 	function absAll(array) {
 	 //your code here
+<<<<<<< HEAD
 	 	each(array,checkNeg);
 	 	return negArray;
 
@@ -22,6 +26,10 @@
 	}
 
 
+=======
+	}
+
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
 	/*
 	2) using improved each write function that multiply each element in array with
 	 4 if index multiply of 4 
@@ -36,6 +44,7 @@
         }
     }
 	function multiplyOfFour(array) {
+<<<<<<< HEAD
 		each(array,doTheMul);
 		return multArray;
 	    //your code here
@@ -83,3 +92,7 @@
 
 
 
+=======
+	    //your code here
+	}
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
