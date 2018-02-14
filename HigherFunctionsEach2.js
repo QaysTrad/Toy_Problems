@@ -12,7 +12,14 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	}
     
 	function pName(argument) {
-		// your code is here
+		var evenName = [];
+		each(argument, function (name, i) {
+			if (i % 2 === 0) {
+				evenName.push(name["name"]);
+			}
+
+		});
+		return evenName;
 	}
 
 
@@ -44,5 +51,9 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
-		// your code is here
+		var result = "";
+		each(obj, function(info, k) {
+			result = result + " " + info + "\n";
+		});
+		return result;
 	}
