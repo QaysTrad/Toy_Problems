@@ -1,3 +1,5 @@
+
+
 /*
 using improved each create function that returns an array with all the names in the array
 if the index is even
@@ -11,8 +13,16 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
-	function pName(argument) {
+	function pName(array) {
 		// your code is here
+		var result = [];
+        each (array, function (num,i){
+        	if (num % 2 === 0){
+        		return result.push(num)
+        	}
+
+        })
+        return result;
 	}
 
 
@@ -45,4 +55,8 @@ printValue(obj_1); =>
     
 	function printValue(obj) {
 		// your code is here
+	
+		each (obj, function (coll,Key){
+			console.log(Key)
+		}) 
 	}
