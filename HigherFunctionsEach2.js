@@ -1,23 +1,30 @@
+
+
 /*
-using improved each create function that returns an array with all the names in the array
+1) using improved each create function that returns an array with all the names in the array
 if the index is even
 var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
-{name :'Omar', age :17},{name :'Ola', age :37}, {name 'Salwa', age : 22}];
+{name :'Omar', age :17},{name :'Ola', age :37}, {name :'Salwa', age : 22}];
 pName(x); = > ['Jon', 'Omar', 'salwa']
 */
-	function each(array, func) {
-	  for (var i = 0; i < array.length; i++) {
+  var ewr=4
+	function each2(array, func) {
+	  for (var i = 0; i < array.length; i=i+2) {
 	    func(array[i], i);
 	  }
 	}
     
 	function pName(argument) {
 		// your code is here
-	}
+       var arrw=[]
+        each2 (argument,function push2(element, i){
+            arrw.push(element) }  )
+        return arrw
+}
 
 
 /*
-1) using improved each with objects, create function that print every element inside the object	
+2) using improved each with objects, create function that print every element inside the object	
 var obj_2 = {name: 'Ibrahim', age : 67, phone : '078-0000000'}
 printValue(obj_2); => 
     Ibrahim
@@ -45,4 +52,8 @@ printValue(obj_1); =>
     
 	function printValue(obj) {
 		// your code is here
+
+        each (obj,function print(element, key){
+            console.log(element ) }  )
+        
 	}
