@@ -11,8 +11,19 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
-	function pName(argument) {
-		// your code is here
+	function pName(argument) 
+	{  
+		var arr=[]
+
+		each(argument,function(num,key)
+			          {
+                      if(key %2===0)
+                       arr.push(num.name)
+                      }
+			                           )
+        
+
+		return arr 
 	}
 
 
@@ -43,6 +54,19 @@ printValue(obj_1); =>
     }
     
     
-	function printValue(obj) {
-		// your code is here
+	function printValue(obj) 
+	{
+	   var arrr=[]
+
+
+	   	each(obj,function(num,key)
+                          {
+                           arrr.push(num.name) 
+                            debugger
+                            //+"\n"+arr.push(num.age)+"\n"+arr.push(num.phone)
+                           }
+	   	                                    )
+	   return arrr
+
+
 	}
