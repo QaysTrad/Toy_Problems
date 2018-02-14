@@ -1,3 +1,7 @@
+
+
+
+
 	// 1-create a data model to represent some of your classmates
 	// 	-think of different attributes of your classmates? what do all of them have ?
 	// 	-create a factory function.
