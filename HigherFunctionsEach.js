@@ -6,12 +6,16 @@
         }
     }
 	function absAll(array) {
+<<<<<<< HEAD
 	 each(array,function(array){
 	 	if (array<0){
 	 		array*=-1;
 	 	}
 	 })
 	 return array;
+=======
+	 //your code here
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
 	}
 
 	/*
@@ -28,6 +32,7 @@
         }
     }
 	function multiplyOfFour(array) {
+<<<<<<< HEAD
 		var result=[];
 		each(array,function(array,i){
 			if(array%4===0){
@@ -36,4 +41,7 @@
 			}
 		})
 	    return result
+=======
+	    //your code here
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
 	}
