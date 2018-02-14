@@ -7,12 +7,18 @@
 	var friends={
 			fullName:"Ather Mahmoud" , "Monther ", "Mohammad Derani "," Samer Salma","Nader Nasor"
 			age:34,22,25,,24,27 
-			favorieSports:"Flying Disk ","  ", " "
+			favorieSports:"Flying Disk " ,"  ", " "
 			nationality:" Iraq"," "
 	}
-	var 
+	var mates=[friends]
 
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
+	
+	function older(){     // ideas for solution : shall use while loop to navigate inside(age)
+							//	and put a condition which return to me the larger one ,its by if statment 
+							// then it return by invok the age key with its value : (friend.age)
+		for(var n=1; n<)
+	}
 
 // 3-write a function that takes an object as argument and returns how many keys does that object contain.
 	 nbOfObjKeys({}) // ==> 0
