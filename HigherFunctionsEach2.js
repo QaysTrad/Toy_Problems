@@ -13,6 +13,13 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
     
 	function pName(argument) {
 		// your code is here
+        var arr = [];
+        each(argument,function(elem,i){
+            if (i%2 === 0){
+                arr.push(elem);
+            }
+        })
+        return arr;
 	}
 
 
@@ -45,4 +52,7 @@ printValue(obj_1); =>
     
 	function printValue(obj) {
 		// your code is here
+        each(obj,function(value,key){
+            console.log(value);
+        })
 	}
