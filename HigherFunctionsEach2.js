@@ -12,7 +12,9 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	}
     
 	function pName(argument) {
-		// your code is here
+		var names=[];
+        each(argument,function(x,index){if (index%2==0){names.push(x.name)}})
+        return names;
 	}
 
 
@@ -44,5 +46,8 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
-		// your code is here
-	}
+        var str="";
+        each(obj,function(x,prop){str=str+x+"\n"})
+        return str;
+	
+	}//hanan nouman
