@@ -6,13 +6,33 @@ var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
 pName(x); = > ['Jon', 'Omar', 'salwa']
 */
 	function each(array, func) {
+
 	  for (var i = 0; i < array.length; i++) {
 	    func(array[i], i);
+        
 	  }
-	}
+
     
-	function pName(argument) {
-		// your code is here
+
+	function pName( argument ) {
+
+        var evenIndexName = [];
+		
+       each ( argument , function ( element, i ) {
+
+
+        if ( i%2 === 0 ) {
+         
+         evenIndexName.push (element.name);
+
+        }
+
+       }
+
+    ) 
+
+   return evenIndexName;
+
 	}
 
 
@@ -29,6 +49,8 @@ printValue(obj_1); =>
     15
     079-0000000
 */
+
+/*
     function each(coll, func) {
         if (Array.isArray(coll)) {
             for (var i = 0; i < coll.length; i++) {
@@ -43,6 +65,21 @@ printValue(obj_1); =>
     }
     
     
-	function printValue(obj) {
-		// your code is here
+	function printValue (obj) {
+
+        var result = '';
+    		 
+        each ( obj, function ( value , key ) {
+
+        result = result + value + "/n";
+
+            }
+
+
+        )
+
+        return result; 
+
 	}
+
+    */
