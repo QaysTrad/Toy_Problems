@@ -11,13 +11,17 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
-	function pName(argument) {
-		// your code is here
+	function pName(array) {
+		var arr = [];
+        each(array, function(x,i){
+            if(i%2 ===0){ arr.push(x["name"])}
+        })
+        return arr;
 	}
 
 
 /*
-1) using improved each with objects, create function that print every element inside the object	
+1) using improved each with objects, create function that prints every element inside the object	
 var obj_2 = {name: 'Ibrahim', age : 67, phone : '078-0000000'}
 printValue(obj_2); => 
     Ibrahim
@@ -44,5 +48,9 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
-		// your code is here
+		
+        each(obj, function(value,key){
+            console.log(value);
+        });
+        
 	}
