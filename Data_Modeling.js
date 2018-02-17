@@ -7,6 +7,7 @@
 	// 	-calculate the number of male friends that your class have by writing a function called nbOfMale.
 	// 	-Write a function searchMates that, given a query and an array of Mates,
 	//           searche the array of mates for "matching" mate. You will decide what way you want to write in your search algorithm.
+<<<<<<< HEAD
 
 var classmates = {   
 	name:"",
@@ -52,3 +53,5 @@ function noFmale( array){
 	}
 	return "the number of males is :" + x
 }
+=======
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18

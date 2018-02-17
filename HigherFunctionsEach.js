@@ -6,9 +6,13 @@
         }
     }
 	function absAll(array) {
+<<<<<<< HEAD
 	 if(array[i] <= 0){
 	 	return array[i] = array[i] * -1
 	 }
+=======
+	 //your code here
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
 	}
 
 	/*
@@ -25,6 +29,7 @@
         }
     }
 	function multiplyOfFour(array) {
+<<<<<<< HEAD
 		var newArray=[]
 	    if(array[i] >= 4){
 	    	if(array[i] % 4 === 0){
@@ -33,3 +38,7 @@
 	    }
 	    return newArray
 	}  
+=======
+	    //your code here
+	}
+>>>>>>> 983fe32363f702b69af81ee9e7d313dcaf003f18
