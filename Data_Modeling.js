@@ -10,34 +10,37 @@
 
 
 var classmate0 = {
-	name: Livia,
+	name: "Livia",
 	age: 28,
-	nationality:romanian
+	nationality:"Romanian"
 
 };
+
 var classmate1 = {
-	name: Alik,
+	name: "Alik",
 	age: 24,
-	nationality: jordanian
+	nationality: "Jordanian"
 
 };
+
 var classmate2 = {
-	name: Mais,
+	name: "Mais",
 	age: 31,
-	nationality: jordanian
+	nationality: "Jordanian"
 
 };
 
 
 function factClassmates(name,age,nationality) {
-	return {
-		name=name;
-		age=age;
-		nationality=nationality;
-	}
+  return {
+    name: name,
+    age: age,
+    nationality: nationality
+  };
 }
 
-var arrayClassmates=[classmate0, classmate1, classmate2];
+
+var arrayClassmates = [classmate0, classmate1, classmate2];
 
 function displayFriend(classmate){
 	return {

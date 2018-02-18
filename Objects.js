@@ -1,36 +1,39 @@
 // 1-define objects for 5 of your classmater containing the following keys:
-	var mates = [{
-	fullName: Livia Nistor,
-	age: 28,
-	favorite sports: hiking,
-	nationality: Romanian
+	var mate1 = {
+		fullName: "Livia Nistor",
+		age: 28,
+		favoriteSports: "hiking",
+		nationality: "Romanian"
 	};
-	{
-	fullName: Alik Alaqra,
-	age: 24,
-	favorite sports: footbal,
-	nationality: Jordanian
-	};
-	{
-	fullName: Hanan Nouman,
-	age: 24,
-	favorite sports: yoga,
-	nationality: Jordanian
-	};
-	{
-	fullName: Shatha Sukkar,
-	age: 28,
-	favorite sports: volleyball,
-	nationality: Syrian
-	};
-	{
-	fullName: Ayman Ghaith,
-	age: 29,
-	favorite sports: carting,
-	nationality: Jordanian
-	}
-	];
 
+	var mate2 = {
+	 	fullName: "Alik Alaqra",
+		age: 24,
+		favoriteSports: "footbal",
+		nationality: "Jordanian"
+	};
+	
+	var mate3 = {
+		fullName: "Hanan Nouman",
+		age: 24,
+		favoriteSports: "yoga",
+		nationality: "Jordanian"
+	};
+	
+	var mate4 = {
+		fullName: "Shatha Sukkar",
+		age: 28,
+		favoriteSports: "volleyball",
+		nationality: "Syrian"
+	};
+	var mate5 = {
+		fullName: "Ayman Ghaith",
+		age: 29,
+		favoriteSports: "carting",
+		nationality: "Jordanian"
+	};
+
+var mates = [mate1, mate2, mate3, mate4, mate5]
 	// -full name 
 	// -age 
 	// -favorite sports 
@@ -38,17 +41,18 @@
 	// and then save theme in one array called mates!
 
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
-function olderMate(mate,age){
-	var x=age;
-	var arr=[];
-	
+function olderMate(mates){
+  var x=mates[age];
+  var arr=[];
+  
 
-	for(var i = 0; i < mates.length; i++ ){
-		if(x<mates[i].age){
-			arr.push(mates[i].fullName;
-		}
-		return arr; 
-	}
+  for(var key in mates){
+    if(key[i]>mates[age]){
+      arr.push(mates[i].fullName);
+    }
+    return arr; 
+  }
+}
 }
 
 // 3-write a function that takes an object as argument and returns how many keys does that object contain.
