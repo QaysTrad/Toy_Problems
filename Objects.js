@@ -5,6 +5,7 @@
 	// -nationality
 	// and then save theme in one array called mates!
 //var classMater={
+<<<<<<< HEAD
 var belal ={
 	fullName:["Belal","Mazen","Faouri"],
 	age:25,
@@ -41,6 +42,40 @@ var mates=[belal,mansour,ayman,amera,ather];
 
 
 
+=======
+	var mate1={
+		name:"Ahmad",
+		age:23,
+		faveriteSport:"fottball",
+		nationality:"Syrian"
+	}
+	var mate2={
+		name:"Atheer",
+		age:34,
+		faveriteSport:"flying disk",
+		nationality:"Iraqi"
+	}
+	var mate3={
+		name:"Ayman",
+		age:30,
+		faveriteSport:"fottball",
+		nationality:"Jordainian"
+	}
+	var mate4={
+		name:"Abdullateef",
+		age:29,
+		faveriteSport:"fottball",
+		nationality:"syrian"
+	}
+	var mate5={
+		name:"Raed",
+		age:26,
+		faveriteSport:"handball",
+		nationality:"Jordainian"
+	}
+
+var classMate=[mate1,mate2,mate3,mate4,mate5];
+>>>>>>> 4adfcdac6466f677cdfcc57373b898d6cde4fd0d
 //}
 	/*
 	Name:["Ahmad","Ather","Ayman","Abdullateef","Raed"],
@@ -50,6 +85,7 @@ var mates=[belal,mansour,ayman,amera,ather];
 	*/
 //}
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
+<<<<<<< HEAD
 function olderClasMate(array){
 	var age1=array[0]["age"];
 	var older=array[0];
@@ -60,6 +96,42 @@ function olderClasMate(array){
 		}
 	}
 return older;
+=======
+ function older(arr){
+
+	var olderAge=0;
+	var x=0;
+	var oldername="";
+
+	while(x<arr.length){
+		
+		if(arr[x].age>olderAge){
+			olderAge=arr[x].age;
+			
+
+		}
+		x++
+	}
+
+		x=0;
+		while(x<arr.length){
+			if(arr[x].age===olderAge){
+				oldername=arr[x].name;
+				
+			}
+			x++
+		}
+
+
+
+
+	
+
+return oldername;
+
+
+
+>>>>>>> 4adfcdac6466f677cdfcc57373b898d6cde4fd0d
 }
 
 

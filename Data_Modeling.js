@@ -60,7 +60,7 @@ var ather={
 		return mate.name+" He is "+mate.age+" years old"+"And he is a "+mate.gender+".";
 	}
 	// 	-write a function called addFriend that takes a mate as an argument and add it to you classMates array.
-	function addFriend(friend,mates){
+	function addFriend(friend){
 		mates.push(friend);
 	}
 	// 	-calculate the number of male friends that your class have by writing a function called nbOfMale.
