@@ -5,62 +5,117 @@
 	// -nationality
 	// and then save theme in one array called mates!
 
-var mates=[
+
 
 var obj1={
-	full name:"Ahmad yaqoba ",
+	fullName:"Ahmad yaqoba ",
 	age :27,
-	favorite sports:"football",
+	favoriteSports:"football",
 	nationality:"Jordanian" 
 };
 var obj2={
-	full name :"Alik Alaqraa,"
+	fullName :"Alik Alaqraa",
 	age :24,
-	favorite sports:"swimming",
+	favoriteSports:"swimming",
 	nationality:"Jordanian" 
 };
 var obj3={
-	full name :"Livia" ,
+	fullName :"Livia" ,
 	age :28,
-	favorite sports:"basketball",
+	favoriteSports:"basketball",
 	nationality:"Roman"
 };
 var obj4={
-	full name :"Amira" ,
+	fullName :"Amira" ,
 	age :23,
-	favorite sports:"dancing",
+	favoriteSports:"dancing",
 	nationality:"syrian"
 	}; 
 var obj5={
-	full name :"abdulatif" ,
+	fullName :"abdulatif" ,
 	age :30,
-	favorite sports:"runing",
+	favoriteSports:"runing",
 	nationality:"syrian"
 
 }
-]
-var hello;
+
+var hello =[obj1,obj2,obj3,obj4,obj5];
 
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
-function older(obj){
+function older(array){
+	var older=array[0].age;
+	for(var i=1;i<array.length;i++){
+		if (array[i].age>older){
+			older=array[i].age
+		}
+	}
+	return older;
+}
 
-for(var i=0;i<obj.length;i++){
-	obj[i]=obj[i][age];
-	if (obj[i][age]>obj[i])
-}
-}
+
+
 
 
 // 3-write a function that takes an object as argument and returns how many keys does that object contain.
-	 nbOfObjKeys({}) // ==> 0
-	 nbOfObjKeys({name:"housam",age:"3"}) // ==> 2
+	// nbOfObjKeys({}) // ==> 0
+	 //nbOfObjKeys({name:"housam",age:"3"}) // ==> 2
 
-function nbOfObjKeys(obj){
-	var object.nbOfObjKeys; 
+function nbOfObjectKeys(obj){
+	var noOfKeys=0;
+	for(var key in obj){
+		noOfKeys++;
+
+	}
+	return noOfKeys;
 }
 
 
 // if you finished the above, solve the following:
 // write a function that takes array of strings and returns an array of the strings that have the same length
-	    ['hi','hello','welcome','hy'] // ==> ["hi","hy"]
+	     // ==> ["hi","hello","welcome","hy"]
+function sameLength(array){
+	var sameLengthArray=[];
+	
+
+for(var i =1;i<array.length;i++){
+		
+		if (array[0].length===array[i].length){
+			sameLengthArray.push(array[i])
+			array.splice(i,1)
+			i--
+	}
+	sameLengthArray.push(array[0])				
+	array.splice(0,1)
+	i=1;
+
+}
+return sameLengthArray;
+}
+	
+	function sameLength(array){
+	var sameLengthArray=[];
+	
+
+for(var i =1;i<array.length;i++){
+	if (array[0].length === array[i].length){
+	sameLengthArray.push(array[i])
+	array.splice(i,1) i--
+	}
+	sameLengthArray.push(array[0])
+	array.splice(0,1)}
+	return sameLengthArray
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
