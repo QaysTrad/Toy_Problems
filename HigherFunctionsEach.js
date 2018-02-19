@@ -5,17 +5,15 @@
           func(array[i]);
         }
     }
-	function absAll(array) {
-var result=[];
-each(array, function(f){
-if (f<0){
-	result.push(f*(-1))
-}else if(f>0){
-	result.push(f)
-}
-});
+function absAll(array) {
+	each(array,function(element){
+		if (element>=0){
+			element=element;
+		}
+		element= elment * -1;
 
-return result;
+	})
+	return array;
 }
 
 	/*
@@ -34,9 +32,9 @@ return result;
 	function multiplyOfFour(array) {
 	   var result=[];
 
-	   each(array,function(f,i){
-	   	if (f%4===0){
-	   		result.push(f*4)
+	   each(array,function(element){
+	   	if (element%4===0){
+	   		result.push(element*4)
 	   	}
 
 

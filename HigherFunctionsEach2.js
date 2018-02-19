@@ -11,13 +11,13 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
-	function pName(argument) {
+	function pName(array) {
 		var res=[];
 
-        each(argument,function(f,i){
+        each(array,function(element,i){
 
             if(i%2===0){
-                res.push(f.name)
+                res.push(element.name)
             }
 
         })
@@ -55,9 +55,9 @@ printValue(obj_1); =>
     
 	function printValue(obj) {
 		var res=""
-        each(obj,function(f,key){
+        each(obj,function(value,key){
 
-         res=res+f+"\n"
+         res=res+value+"\n"
 
         })
        return  res;

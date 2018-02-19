@@ -31,23 +31,26 @@ function displayFriend(array){
 }
 
 function addFriend(name,age,nat,gender){
-return array.push(RBK(name,age,nat,gender));
+ array.push(RBK(name,age,nat,gender));
+ return array;
 }
 
 function nbOfMale(array){
+	var x=0;
+	for(var i=0;i<array.length;i++){
+		if(array[i].gender==="male"){
+			x++;
+		}
+	}
+	return x;
 
 }
 
-
-function matchname(qu,name){
-	var length=name.name.length.toLowerCase(){
-		for (var i=0;i<length,i++){
-			if(length.substr(qu,qu.length)===qu[i].lengt.toLowerCase()){
-				return true;
-			}
-		}return false;
-
-
-
-	}
+// it will search by name only , and it will be case sensitive
+function matchname(qu,array){
+	for(var i=0;i<array.length;i++){
+	if(array.name.toLowerCase().indexOf(qu.toLowerCase())!== -1){
+		return "the name is found"
+	}}
+	return "the name is not found"
 }
