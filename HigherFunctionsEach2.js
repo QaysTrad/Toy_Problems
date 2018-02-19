@@ -11,6 +11,7 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
+<<<<<<< HEAD
 	function pName(arr) {
         var newArr = [];
         each(arr, function(x, i) {
@@ -25,6 +26,10 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 
         return newArr;
 		
+=======
+	function pName(argument) {
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
 
 
@@ -56,6 +61,7 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
+<<<<<<< HEAD
         var allElements = "";
 		each(obj, function(col,key) {
             allElements = obj.name + ", " + "\n"+ obj.age+ ", " + "\n"+ obj.phone;
@@ -65,4 +71,7 @@ printValue(obj_1); =>
         )
 
         return allElements;
+=======
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
