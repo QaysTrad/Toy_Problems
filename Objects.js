@@ -12,7 +12,7 @@
 		nationality:"Syrian"
 	}
 	var mate2={
-		name:"Ather",
+		name:"Atheer",
 		age:34,
 		faveriteSport:"flying disk",
 		nationality:"Iraqi"
@@ -36,7 +36,7 @@
 		nationality:"Jordainian"
 	}
 
-var classmater=[mate1,mate2,mate3,mate4,mate5];
+var classMate=[mate1,mate2,mate3,mate4,mate5];
 //}
 	/*
 	Name:["Ahmad","Ather","Ayman","Abdullateef","Raed"],
@@ -46,31 +46,37 @@ var classmater=[mate1,mate2,mate3,mate4,mate5];
 	*/
 //}
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
-function older(arr){
-	var older=0;
+ function older(arr){
+
+	var olderAge=0;
 	var x=0;
 	var oldername="";
+
 	while(x<arr.length){
-		if(arr[x].age>older){
-			older=arr[x].age;
-			x++
-//			console.log(x)
+		
+		if(arr[x].age>olderAge){
+			olderAge=arr[x].age;
+			
+
 		}
-//console.log(x)
-		x=0;
-		while(x<arr.length){
-			if(arr[x].age===older){
-				oldername=arr[x].name;
-				x++
-			}
-		}
-
-
-
-
+		x++
 	}
 
-return oldername;;
+		x=0;
+		while(x<arr.length){
+			if(arr[x].age===olderAge){
+				oldername=arr[x].name;
+				
+			}
+			x++
+		}
+
+
+
+
+	
+
+return oldername;
 
 
 
