@@ -2,7 +2,11 @@
 using improved each create function that returns an array with all the names in the array
 if the index is even
 var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
+<<<<<<< HEAD
 {name :'Omar', age :17},{name :'Ola', age :37}, {name : 'Salwa', age : 22}];
+=======
+{name :'Omar', age :17},{name :'Ola', age :37}, {name 'Salwa', age : 22}];
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 pName(x); = > ['Jon', 'Omar', 'salwa']
 */
 	function each(array, func) {
@@ -13,6 +17,7 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
     
 	function pName(argument) {
 		// your code is here
+<<<<<<< HEAD
         total = []
         each (argument, function(array, i){
             if (i%2 === 0){
@@ -20,6 +25,8 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
             }
         });
         return total
+=======
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
 
 
@@ -52,9 +59,12 @@ printValue(obj_1); =>
     
 	function printValue(obj) {
 		// your code is here
+<<<<<<< HEAD
         each (obj, function(obj[key], i){
 
         });return key
 
 
+=======
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
