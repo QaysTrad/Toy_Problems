@@ -5,6 +5,7 @@ var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
 {name :'Omar', age :17},{name :'Ola', age :37}, {name 'Salwa', age : 22}];
 pName(x); = > ['Jon', 'Omar', 'salwa']
 */
+<<<<<<< HEAD
     function each(array, func) {
       for (var i = 0; i < array.length; i++) {
         func(array[i], i);
@@ -25,6 +26,21 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 
 /*
 1) using improved each with objects, create function that print every element inside the object 
+=======
+	function each(array, func) {
+	  for (var i = 0; i < array.length; i++) {
+	    func(array[i], i);
+	  }
+	}
+    
+	function pName(argument) {
+		// your code is here
+	}
+
+
+/*
+1) using improved each with objects, create function that print every element inside the object	
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 var obj_2 = {name: 'Ibrahim', age : 67, phone : '078-0000000'}
 printValue(obj_2); => 
     Ibrahim
@@ -50,9 +66,15 @@ printValue(obj_1); =>
     }
     
     
+<<<<<<< HEAD
     function printValue(obj) {
         each(data,function (function (data)))
         return obj.name+"\n" + obj.age+"\n"+ obj.phone
 
         
     }
+=======
+	function printValue(obj) {
+		// your code is here
+	}
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
