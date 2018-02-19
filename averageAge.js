@@ -24,7 +24,7 @@
  	return avg;
        // YOUR CODE HERE 
  }
-//as
+//asdfdsdfs
  averageAge(people); // 43+36+44+24 = 36.74
 
 function each(arr, f) { 
