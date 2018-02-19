@@ -22,8 +22,9 @@ var classmate1=makeClassmates("Mais Mohtaseb",31,"Jordanian","female")
 var classmate2=makeClassmates("Mona Saed",27,"yemani","female")
 var classmate3=makeClassmates("Alik alaqraa",22,"Ukranian","male")
 var classmate4=makeClassmates("Abdalhameed abullah",29,"Syrian","male")
+var classmate5=makeClassmates("Mona fadi",30,"Syrian","female")
 //array of classmates
- var classMates=[classmate1,classmate2,classmate3,classmate4]
+ var classMates=[classmate1,classmate2,classmate3,classmate4,classmate5]
 
  //display function
  function displayFriend(mate)
@@ -49,11 +50,12 @@ function nbOfMale(classMatesArr)
 }
 function searchMates(query,MatesArr)
 {
+	//search for student who has the word in the query iun thier names 
 	var newArr=[]
-	//I want to search for all the people who are in the age that I'm lokking for 
+	
   for (var i=0;i<MatesArr.length;i++)
        {
-       	if(MatesArr[i].age===query)
+       	if(MatesArr[i].name.indexOf(query)!== -1)
        	{
        		newArr.push(MatesArr[i])
        	}

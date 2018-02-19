@@ -17,7 +17,7 @@
 		})
 		return positiveArr
 	}
-
+//test
 	/*
 	2) using improved each write function that multiply each element in array with
 	 4 if index multiply of 4 
