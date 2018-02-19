@@ -12,6 +12,7 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	}
     
 	function pName(argument) {
+<<<<<<< HEAD
 
 		var arr=[]
 
@@ -27,6 +28,9 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
         })
       return arr
        
+=======
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
 
 
@@ -58,6 +62,7 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
+<<<<<<< HEAD
 		
         var res=[]
         each(obj,function(num,key){
@@ -76,3 +81,7 @@ printValue(obj_1); =>
 
 
 
+=======
+		// your code is here
+	}
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
