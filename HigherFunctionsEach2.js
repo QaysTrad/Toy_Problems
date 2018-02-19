@@ -11,6 +11,7 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
+
 	function pName(argument) 
     {
         var namesArray=[];
@@ -22,6 +23,10 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
             }
         })
         return namesArray;
+=======
+	function pName(argument) {
+		// your code is here
+
 	}
 
 
@@ -52,6 +57,7 @@ printValue(obj_1); =>
     }
     
     
+
 	function printValue(obj) 
     {
         var display ="";
@@ -60,4 +66,8 @@ printValue(obj_1); =>
             display += value +"\n";
         })
         return display;
+=======
+	function printValue(obj) {
+		// your code is here
+
 	}
