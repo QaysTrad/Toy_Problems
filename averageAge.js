@@ -11,17 +11,17 @@
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
  function averageAge(people) { 
- 	var sum=0;
- 	var count=0;
- 	var avg=0;
- 	each(people,function(element,i){
- 		if(element.age>15&&element.age<50){
- 			sum=sum+element.age;
- 			count++;
- 		}
- 	})
- 	avg=sum/count;
- 	return avg;
+  var sum=0;
+  var count=0;
+  var avg=0;
+  each(people,function(element,i){
+    if(element.age>15&&element.age<50){
+      sum=sum+element.age;
+      count++;
+    }
+  })
+  avg=sum/count;
+  return avg;
        // YOUR CODE HERE 
  }
 //asdfdsdfs
@@ -32,5 +32,5 @@ function each(arr, f) {
            f(arr[i], i); 
          } 
        } 
- 
+ //asdasd
  
