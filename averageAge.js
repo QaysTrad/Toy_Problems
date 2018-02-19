@@ -1,6 +1,17 @@
 // Write a function called  averageAge that accpets an array of objects and return the average ages for the people who are between 18 and 50
  
 
+ function each(coll, f) {
+	if (Array.isArray(coll)) {
+	  for (var i = 0; i < coll.length; i++) {
+		f(coll[i], i);
+	  }
+	} else {
+	  for (var key in coll) {
+		f(coll[key], key);
+	  }
+	}
+  }
  var people = [ 
        {name: {first: 'Ahmad', middle: 'B.', last: 'AlAhmad'}, age: 85}, 
        {name: {first: 'Amer', last: 'MHD'}, age: 43}, 
@@ -11,7 +22,15 @@
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
  function averageAge(people) { 
-       // YOUR CODE HERE 
- }
+      var totalAge=0
+      var count=0;
+      each (people,function (element,i){
+      	if (people[i].age>18&&people[i].age<50){
+      		count++;
+      		return totalAge+=people[i].age
+      	}
+      })
+      return totalAge/count;
+  }
 
  averageAge(people); // 43+36+44+24 = 36.74
