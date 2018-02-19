@@ -5,12 +5,12 @@
           func(array[i]);
         }
     }
-	var absAll=function(array) {
+	function absAll(array) {
 		var arr=[]
 		each(array,function(number) {
 			if(number>=0){
 				arr.push(number)
-			}  return arr.push(-array)
+			} -1*number
 		}) 
 	}
 
