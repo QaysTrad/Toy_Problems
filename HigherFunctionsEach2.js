@@ -11,6 +11,7 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	  }
 	}
     
+<<<<<<< HEAD
 
 var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
 {name :'Omar', age :17},{name :'Ola', age :37}, {name: 'Salwa', age : 22}];
@@ -22,12 +23,20 @@ var x = [{name : 'Jon',age : 45}, {name : 'Ali', age : 28},
             
         })
         return names;
+=======
+	function pName(argument) {
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
 
 
 /*
 1) using improved each with objects, create function that print every element inside the object	
+<<<<<<< HEAD
 
+=======
+var obj_2 = {name: 'Ibrahim', age : 67, phone : '078-0000000'}
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 printValue(obj_2); => 
     Ibrahim
     67
@@ -50,6 +59,7 @@ printValue(obj_1); =>
             }
         }
     }
+<<<<<<< HEAD
 
 
 
@@ -71,4 +81,10 @@ printValue(obj_1); =>
             str=str+" "+info+'\n'
         })
         return str;
+=======
+    
+    
+	function printValue(obj) {
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
