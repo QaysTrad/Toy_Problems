@@ -1,5 +1,11 @@
 	// 1-create a data model to represent some of your classmates
-	
+	function addClassMates(name,age,height){
+		return {
+			name:name,
+			age:age,
+			height:height
+		}
+	}
 /*
 	function addclassmates(name,age){
 		return{
@@ -9,12 +15,32 @@
 	}
 */
 
-	var mate1=addclassmates("Ayman",30,"Male")
-	var mate2=addclassmates("Ahmad",24,"Male")
-	var mate3=addclassmates("Abdullatif",29,"Male")
-	var mate4=addclassmates("Ather",34,"Male")
-	var mate5=addclassmates("Raed",26,"Male")
+var belal=addClassMates('belal',25);
 
+var mansour={
+	fullName:["Mansour","Ahmad","Almoukdad"],
+	age:29,
+	faveriteSport:["reading","walking"],
+	nationality:"Syrian"
+}
+var ayman={
+	fullName:["ayman","Ghanem"],
+	age:29,
+	faveriteSport:["reading","walking"],
+	nationality:"Jordanian"
+}
+var amera={
+	fullName:["Amera","Hassoun"],
+	age:23,
+	faveriteSport:["reading","walking"],
+	nationality:"Syrian"
+}
+var ather={
+	fullName:["Mansour","Mahmoud"],
+	age:34,
+	faveriteSport:"Flying Disk"
+	nationality:"Iraqi"
+}
 
 	// 	-think of different attributes of your classmates? what do all of them have ?
 	

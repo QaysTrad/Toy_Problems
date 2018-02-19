@@ -5,38 +5,42 @@
 	// -nationality
 	// and then save theme in one array called mates!
 //var classMater={
-	var mate1={
-		name:"Ahmad",
-		age:23,
-		faveriteSport:"fottball",
-		nationality:"Syrian"
-	}
-	var mate2={
-		name:"Ather",
-		age:34,
-		faveriteSport:"flying disk",
-		nationality:"Iraqi"
-	}
-	var mate3={
-		name:"Ayman",
-		age:30,
-		faveriteSport:"fottball",
-		nationality:"Jordainian"
-	}
-	var mate4={
-		name:"Abdullateef",
-		age:29,
-		faveriteSport:"fottball",
-		nationality:"syrian"
-	}
-	var mate5={
-		name:"Raed",
-		age:26,
-		faveriteSport:"handball",
-		nationality:"Jordainian"
-	}
+var belal ={
+	fullName:["Belal","Mazen","Faouri"],
+	age:25,
+	faveriteSport:["Walking","Frisbee"],
+	nationality:"Jordanian"
+}
+var mansour={
+	fullName:["Mansour","Ahmad","Almoukdad"],
+	age:29,
+	faveriteSport:["reading","walking"],
+	nationality:"Syrian"
+}
+var ayman={
+	fullName:["ayman","Ghanem"],
+	age:29,
+	faveriteSport:["reading","walking"],
+	nationality:"Jordanian"
+}
+var amera={
+	fullName:["Amera","Hassoun"],
+	age:23,
+	faveriteSport:["reading","walking"],
+	nationality:"Syrian"
+}
+var ather={
+	fullName:["Mansour","Mahmoud"],
+	age:34,
+	faveriteSport:"Flying Disk"
+	nationality:"Iraqi"
+}
 
-var classmater=[mate1,mate2,mate3,mate4,mate5];
+var mates=[belal,mansour,ayman,amera,ather];
+
+
+
+
 //}
 	/*
 	Name:["Ahmad","Ather","Ayman","Abdullateef","Raed"],
@@ -46,36 +50,17 @@ var classmater=[mate1,mate2,mate3,mate4,mate5];
 	*/
 //}
 // 2-depending on the previous exercises , write a function that returns the older classmate from mates array.
-function older(arr){
-	var older=0;
-	var x=0;
-	var oldername="";
-	while(x<arr.length){
-		if(arr[x].age>older){
-			older=arr[x].age;
-			x++
-//			console.log(x)
+function olderClasMate(array){
+	var age1=array[0]["age"];
+	var older=array[0];
+	for (var i = 0; i < array.length; i++) {
+		if(array[i]["age"]>age1){
+			age1=array[i]['age']
+			older=array[i];
 		}
-//console.log(x)
-		x=0;
-		while(x<arr.length){
-			if(arr[x].age===older){
-				oldername=arr[x].name;
-				x++
-			}
-		}
-
-
-
-
 	}
-
-return oldername;;
-
-
-
+return older;
 }
-
 
 
 
@@ -83,15 +68,15 @@ return oldername;;
 	// nbOfObjKeys({}) // ==> 0
 	// nbOfObjKeys({name:"housam",age:"3"}) // ==> 2
 
-	function numOfKeys(obj){
-		var count=0;
+	function keyNum(obj){
+		var keys=0;
+
 		for(var key in obj){
-			count++;
-
+			keys=keys+1
 		}
-		return count;
-	}
 
+		return keys
+	}
 
 
 
@@ -102,25 +87,19 @@ return oldername;;
 	///    ['hi','hello','welcome','hy'] // ==> ["hi","hy"]
 
 
-function sameLingth(arr){
-	var strlingth=0;
-	var newArray=[];
-	for(i=0;i<arr.length;i++){
-		strlingth=arr[i].length;     //take the length of th fist element
-		for(j=i+1;j<arr.length;j++){
-			if(strlingth===arr[j].length){  //compare the length of the first element with the other element
-				newArray.push(arr[i]);
-				newArray.push(arr[j]);
+function sameLength(array){
+	var newArr=[];
+	var same=array[0]
 
+	for (var i = 0; i < array.length; i++) {
+		for (var j = 0; j < array.length; j++) {
+			if(array[i].length === array[j].length && array[i] !== array[j]){
+				newArr.push(array[i])
 			}
-
-
 		}
 	}
 
-return newArray;
-
-
+	return newArr;
 }
 
 
