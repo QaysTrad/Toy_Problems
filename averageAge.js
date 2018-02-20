@@ -11,6 +11,7 @@
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
  function averageAge(people) { 
+<<<<<<< HEAD
  	sum =0
        for (var i = 0 ; i < people.length; i++) {
        	sum = sum + people[i].age
@@ -19,3 +20,9 @@
  }
 
  averageAge(people); // 43+36+44+24 = 36.74ß
+=======
+       // YOUR CODE HERE 
+ }
+
+ averageAge(people); // 43+36+44+24 = 36.74
+>>>>>>> 527cc09c05ce6b99d3ff750199ad72f2585e7160
