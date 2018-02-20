@@ -28,3 +28,55 @@ function makeGame(upperbound){
   	}
   }
 }
+
+
+/////////////////////////////////////////////////////////////
+
+
+function randInt(n) {
+    return Math.floor(Math.random() * (n + 1));
+}
+
+function makeGame(upperbound) {
+
+var instance = {};
+
+instance.upperbound=upperbound;
+instance.upper= upperbound;
+instance.rand = randInt(instance.upper);
+instance.counter = 0;
+
+
+instance.guessMyNumber=guessMyNumber;
+instance.giveUp=giveUp;
+instance.numOfGuesses=numOfGuesses;
+
+return instance;
+
+}
+
+
+var guessMyNumber = function (n) {
+
+   this.counter++;
+      if (n > this.upper) {
+        return "Out of bounds! Please try a number between 0 and " + this.upperbound + ".";
+      } else if (n === this.rand) {
+        return "You guessed my number!";
+      }
+      return "Nope! That wasn't it!";
+}
+
+
+var giveUp = function(n) {
+
+return this.rand;
+
+}
+
+
+var numOfGuesses = function( ){
+
+return this.counter;
+
+}
