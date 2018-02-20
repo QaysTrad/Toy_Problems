@@ -10,6 +10,7 @@
        {name: {first: 'Lina', last: 'MHD'}, age: 14} ,
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
+<<<<<<< HEAD
  function averageAge(array) { 
        newArr=[]
        
@@ -24,4 +25,10 @@ for (i=0; i< array.length; i++) {
 
 //i want to sum all ages and devided into the number of it
 
+=======
+ function averageAge(people) { 
+       // YOUR CODE HERE 
+ }
+
+>>>>>>> 527cc09c05ce6b99d3ff750199ad72f2585e7160
  averageAge(people); // 43+36+44+24 = 36.74
