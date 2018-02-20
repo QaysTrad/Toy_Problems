@@ -28,3 +28,45 @@ function makeGame(upperbound){
   	}
   }
 }
+
+
+//=================== Solution =========================//
+
+function makeGame(upperbound) {
+
+var game = {};
+
+game.upper = upperbound;
+game.rand = randInt(upperbound);
+game.counter = 0;
+game.guessMyNumber = guessMyNumber;
+game.giveUp = giveUp;
+game.numOfGuesses = numOfGuesses;
+game.randInt = this.rand;
+
+
+return game;
+
+}
+
+var guessMyNumber = function(n){
+  		this.counter++;
+	    if (n > this.upper) {
+	      return "Out of bounds! Please try a number between 0 and " + this.upper + ".";
+	    } else if (n === this.rand) {
+	      return "You guessed my number!";
+	    }
+	    return "Nope! That wasn't it!";
+  	}
+
+var  giveUp = function(){
+    	return this.rand;
+  	} 	
+
+var numOfGuesses = function(){
+    	return this.counter;
+  	}
+
+var randInt = function randInt(n) {
+    return Math.floor(Math.random() * (n + 1));
+}
