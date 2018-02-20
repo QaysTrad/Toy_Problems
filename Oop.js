@@ -68,7 +68,7 @@ var guessMyNumber = function (n) {
 }
 
 
-var giveUp = function(n) {
+var giveUp = function( ){
 
 return this.rand;
 
