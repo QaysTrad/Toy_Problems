@@ -12,9 +12,13 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	}
     
 	function pName(argument) {
+<<<<<<< HEAD
 		each(argument, function(obj, i){
             return argument.value[i]
         })
+=======
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
 
 
@@ -46,7 +50,11 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
+<<<<<<< HEAD
 		each(array,function(obj,valu){
             return value
         })
+=======
+		// your code is here
+>>>>>>> cc67d8a9778e9402221541866539cacea4645ed9
 	}
