@@ -28,3 +28,42 @@ function makeGame(upperbound){
   	}
   }
 }
+
+
+ function makeGame(upperbound){
+	var result={};
+	var rand=randInt(upperbound)
+	var counter=0
+	 result.counter=counter
+	 result.upper= upperbound;
+	 result.guessMyNumber= guessMyNumber;
+	 result.rand=rand;
+	 //makeGame.giveUp= giveUp;
+	// makeGame.numOfGuesses= numOfGuesses;
+	
+return result
+}
+
+
+var guessMyNumber= function (n){
+	result.counter=0
+	counter++;
+	var x = this
+	if (n > x.upper) {
+	      return "Out of bounds! Please try a number between 0 and " + x.upperbound + ".";
+	    } else if (n === x.rand) {
+	      return "You guessed my number!";
+	    }
+	    return "Nope! That wasn't it!";
+  	}
+
+
+var giveUp= function(){
+	var x = this
+    	return x.rand;
+  	}
+
+
+var numOfGuesses=function(){
+	var x=this
+    	return x.counter;
