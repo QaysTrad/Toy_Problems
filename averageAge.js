@@ -9,18 +9,18 @@
        {name: {first: 'Lina', last: 'MHD'}, age: 14} ,
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
- function averageAge(people) {
+ function averageAge(peoplea) {
  	var sum=0;
- 	var avg=people.length;
+ 	
  	for (var i = 0; i < people.length; i++) {
- 		if(typeof people[i]==="number"){
- 			if(people[i]>18&&people[i]<50){
+ 		if(people[i].age >18 && people[i].age<50)
+ 		
  				sum+=people[i]
  			}
- 		}
+ 		
 
- 	}
- 	return sum/avg;
+ 	
+ 	return arr;
  	
 
  }

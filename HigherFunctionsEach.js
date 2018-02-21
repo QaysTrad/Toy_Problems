@@ -6,7 +6,19 @@
         }
     }
 	function absAll(array) {
-	 //your code here
+	 var arr=[];
+	 each(array,function(array){
+	 	if(-array){
+	 		array=array*-1
+	 	}
+	 	
+
+	
+	 	
+	 	arr.push(array)
+	 })
+	 return arr;
+
 	}
 
 	/*
@@ -23,5 +35,11 @@
         }
     }
 	function multiplyOfFour(array) {
-	    //your code here
+	    var arr=[];
+	    each (array,function(array,i){
+	    	
+	    		arr.push(array*4);
+	    	
+	    })
+	    return arr;
 	}
