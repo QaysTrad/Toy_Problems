@@ -9,7 +9,8 @@ function randInt(n) {
 function makeGame(upperbound){
   var game={};
   game.upper=upperbound;
-  game.rand=randInt(this.upper)
+  game.rand=randInt(game.upper)
+ // game.randInt=randInt;
   game.counter=0;
   game.guessMyNumber=guessMyNumber;
   game.giveUp=giveUp;

@@ -14,14 +14,25 @@
        {name: {first: 'Lina', last: 'MHD'}, age: 14} ,
        {name: {first: 'Obada', last: 'Eddin'}, age: 24} 
  ]; 
- function averageAge(people) { 
+/* function averageAge(people) { 
  	var sum = 0
-      each(people,function(person,i){
-      	if(people[person.age[i]]>18 && people[person.age[i]]<50){
-      		return sum = sum + people[person.age[i]]
+ 	var a = 0
+      for(i= 0; i<people.length;i++){
+      	if(people[i].age>18 && people[i].age<50){
+      		a = a + 1
+      		sum = sum + people[i].age
       	}
-      	return sum/i
-      })
+      }return sum/a
+}*/
+ function averageAge(people){
+ 	var sum = 0
+ 	var count = 0
+ 	each(people,function(person,i){
+ 		if(person.age>18 && person.age<50){
+ 			sum = sum + person.age
+ 			count = count + 1
+ 		}
+ 	})
+ 	return sum/count
  }
-
  averageAge(people); // 43+36+44+24 = 36.74
