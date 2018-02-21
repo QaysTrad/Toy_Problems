@@ -1,0 +1,124 @@
+[33mcommit a7d35e4d92ef1630863fd82bb65335a8921db5a8[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Merge: 75acb16 527cc09
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Tue Feb 20 09:07:30 2018 +0200
+
+    Merge branch 'master' of https://github.com/rbk-org/Toy_Problems
+
+[33mcommit 527cc09c05ce6b99d3ff750199ad72f2585e7160[m[33m ([m[1;31mupstream/master[m[33m)[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 19 18:55:18 2018 +0200
+
+    init
+
+[33mcommit 75acb160715cfa8314888bb01acadb85e1a828e9[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Mon Feb 19 09:24:44 2018 +0200
+
+    Solved using Improved each
+
+[33mcommit 23adc8f47526bd851849147e8d4030d057bd46aa[m
+Merge: 10b7534 cc67d8a
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Mon Feb 19 09:15:01 2018 +0200
+
+    Merge branch 'master' of https://github.com/rbk-org/Toy_Problems
+
+[33mcommit cc67d8a9778e9402221541866539cacea4645ed9[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 19 09:04:36 2018 +0200
+
+    init
+
+[33mcommit d8efa0aa14c34ec05344d5c79201e36098c74089[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 19 09:03:45 2018 +0200
+
+    init
+
+[33mcommit 10b7534ca55218ffa22e5f76097fb02984393a7f[m
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Wed Feb 14 09:22:45 2018 +0200
+
+    solved higherfunction2
+
+[33mcommit 79ca854fea60f27bb77067bf16dd571e212e528d[m
+Merge: 0f9f63a 983fe32
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Wed Feb 14 09:12:17 2018 +0200
+
+    Merge branch 'master' of https://github.com/rbk-org/Toy_Problems
+
+[33mcommit 983fe32363f702b69af81ee9e7d313dcaf003f18[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Tue Feb 13 23:47:45 2018 +0200
+
+    init
+
+[33mcommit 0f9f63a82689ab5f1b0a067220fed46dfbb4235b[m
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Tue Feb 13 09:20:06 2018 +0200
+
+    solved
+
+[33mcommit 1cb9a1b07d4f4e95f67a02e6cccc390c34f91856[m
+Merge: d778f55 bc6e2ed
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Tue Feb 13 09:11:31 2018 +0200
+
+    Merge branch 'master' of https://github.com/rbk-org/Toy_Problems
+
+[33mcommit bc6e2edad1c6d0c213c8f26ffb373fe17961ef71[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 12 23:14:12 2018 +0200
+
+    removeFile
+
+[33mcommit 698dcab5e88491066d3e1eefee684dddf2f866fa[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 12 23:11:09 2018 +0200
+
+    init
+
+[33mcommit 71532a0a746e61339b05d8ad358731924b124c48[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 12 17:10:11 2018 +0200
+
+    test
+
+[33mcommit d778f55155c706049078e0d464cd65462cb28fb8[m
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Mon Feb 12 10:02:09 2018 +0200
+
+    Solved data modeling toy problem.
+
+[33mcommit b640105bc8f90f2c6a1a012ea9bd4fb267e06e3c[m
+Merge: e446261 bdeac87
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Mon Feb 12 09:37:58 2018 +0200
+
+    Merge branch 'master' of https://github.com/rbk-org/Toy_Problems
+
+[33mcommit bdeac87317492ca4a18a8f00a054d07e049ee1a6[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Mon Feb 12 09:03:21 2018 +0200
+
+    init
+
+[33mcommit e446261624a1773bcae87e387845438298461b28[m
+Author: Belal Faouri <belalfaourig@gmail.com>
+Date:   Sun Feb 11 10:15:19 2018 +0200
+
+    i tried
+
+[33mcommit ed325dd20de0ce45552197912107fd0c64f6a40c[m
+Author: Fatima <en.fh90@gmail.com>
+Date:   Sun Feb 11 07:26:45 2018 +0200
+
+    init
+
+[33mcommit 8f5e48c5c95231a07282ae5a2593014dd8e4d5b1[m
+Author: Fatima90 <en.f.h90@gmail.com>
+Date:   Sun Feb 11 07:20:24 2018 +0200
+
+    Initial commit

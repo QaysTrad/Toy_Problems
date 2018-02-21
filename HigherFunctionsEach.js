@@ -20,7 +20,7 @@
 	/*
 	2) using improved each write function that multiply each element in array with
 	 4 if index multiply of 4
-
+       i=   [0, 1, 2, 3,4,5,6,7]
 	 var x = [2, 4, 6, 8, 10, 12, 14, 16]
 		multiplyOfFour(x);  => [16, 64 , 256]
     */
@@ -32,7 +32,7 @@
     }
 	function multiplyOfFour(array) {
 	    var newArr=[];
-      each(array,function(x){
+      each(array,function(x,i){
         if(x%4===0){
           newArr.push(x*4);
         }
