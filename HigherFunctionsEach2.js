@@ -56,3 +56,38 @@ printValue(obj_1); =>
 		})
 		return;
 	}
+	function each(coll, func) {
+       if (Array.isArray(coll)) {
+             for (var i = 0; i < coll.length; i++) {
+                   func(coll[i], i);
+             }
+       } else {
+             for (var key in coll) {
+                   func(coll[key], key);
+             }
+       }
+ }
+
+
+	function reduce(array, f, acc) {
+        if (acc === undefined) {
+              acc = array[0];
+              array = array.slice(1);
+        }
+        each(array, function(element, i) {
+              acc = f(acc, element, i);
+        });
+        return acc;
+  }
+
+
+function fac(array){
+	return reduce(array,function(total,element){
+		return total* element
+	})
+}
+function allEvens(array){
+	return reduce(array,function(results,element){
+		return results && element % 2 === 0
+	},0)
+}
