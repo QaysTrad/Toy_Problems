@@ -46,10 +46,10 @@ return game;
 }
 
 
-var randInt = function(upperbound){
-  return Math.floor(Math.random() * (upperbound + 1));
+// var randInt = function(upperbound){
+//   return Math.floor(Math.random() * (upperbound + 1));
 
-}
+// }
 
 var guessMyNumber = function(n){
       this.counter++;
@@ -63,7 +63,8 @@ var guessMyNumber = function(n){
 
 
 var giveUp = function(){
-      return this.rand;
+      //return this.rand;
+      return 
     }                           //i don't know how to fix this to be containing of two functions
 
 
