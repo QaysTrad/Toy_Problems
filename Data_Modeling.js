@@ -56,7 +56,7 @@ function searchMates(query, mates)
 
 function isMatch(query, name)
 {
-	if(name.substr(0, query.length-1).toLowerCase() === query.toLowerCase())
+	if(name.substr(0, query.length).toLowerCase() === query.toLowerCase())
 		return true;
 	else
 		return false;

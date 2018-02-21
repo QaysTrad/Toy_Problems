@@ -80,7 +80,7 @@ function nbOfObjKeys(obj)
 
 // if you finished the above, solve the following:
 // write a function that takes array of strings and returns an array of the strings that have the same length
-	    ['hi','hello','welcome','hy'] // ==> ["hi","hy"]
+var arr1= ['hi','hello','welcome','hy']; // ==> ["hi","hy"]
 function findSameLength(arr)
 {
 	var length;
@@ -89,12 +89,12 @@ function findSameLength(arr)
 
 	for(var i=0; i< arr.length; i++)
 	{
-		length = arr1[i].length;
-		for(var j=0; j<arr1.length; j++)
+		length = arr[i].length;
+		for(var j=0; j<arr.length; j++)
 		{
-			if(length === arr1[j].length)
+			if(length === arr[j].length)
 			{
-				arr2.push(arr1[j]);
+				arr2.push(arr[j]);
 				count++;
 			}
 		}
