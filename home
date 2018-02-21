@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Toy Problem</title>
+	</head>
+	<body>
+		<h1> TOY PROBLEM </h1>
+		<p> <a href="file:///Users/rbk8/Desktop/Toy_Problems/favorite" target="_blank">the favorite page</a></p>
+		 <p><a href="file:///Users/rbk8/Desktop/Toy_Problems/bio" target="_blank">the bio page</a></p>
+		<p><a href="file:///Users/rbk8/Desktop/Toy_Problems/movie" target="_blank">the movie page</a></p>
+	</body>
+</html>

@@ -27,6 +27,7 @@ function makeGame(upperbound){
     	return counter;
   	}
   }
+<<<<<<< HEAD
 }
 ///////////////// MY CODE IS HERE ////////////////
 
@@ -66,3 +67,6 @@ function numOfGuesses (){
 	 return this.counter;
 }
 
+=======
+}
+>>>>>>> 1885c6ead4e6d951fa8abc3767a9101c1fd46e72
