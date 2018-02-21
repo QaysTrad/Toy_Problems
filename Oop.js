@@ -6,6 +6,7 @@ function randInt(n) {
     return Math.floor(Math.random() * (n + 1));
 }
 
+<<<<<<< HEAD
 // function makeGame(upperbound){
 //   var upper=upperbound;
 //   var rand=randInt(upper)
@@ -73,3 +74,27 @@ var x=makeGame1(5);
 
 
 
+=======
+function makeGame(upperbound){
+  var upper=upperbound;
+  var rand=randInt(upper)
+  var counter=0;
+  return {
+  	guessMyNumber:function(n){
+  		counter++;
+	    if (n > upper) {
+	      return "Out of bounds! Please try a number between 0 and " + upperbound + ".";
+	    } else if (n === rand) {
+	      return "You guessed my number!";
+	    }
+	    return "Nope! That wasn't it!";
+  	},
+  	giveUp:function(){
+    	return rand;
+  	},
+  	numOfGuesses:function(){
+    	return counter;
+  	}
+  }
+}
+>>>>>>> 1885c6ead4e6d951fa8abc3767a9101c1fd46e72
