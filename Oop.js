@@ -35,7 +35,7 @@ function makeGame(upperbound)
   var instances={}
   instances.upper=upperbound;
   instances.randInt=randInt;
-  instances.rand=randInt(upper);
+  instances.rand=randInt(instances.upper);
   instances.counter=0;
   instances.guessMyNumber=guessMyNumber;
   instances.giveUp=giveUp;
@@ -54,7 +54,7 @@ var guessMyNumber=function(n)
       this.counter++;
       if (n > this.upper) 
       {
-        return "Out of bounds! Please try a number between 0 and " + upperbound + ".";
+        return "Out of bounds! Please try a number between 0 and " + this.upper + ".";
       }
        else if (n === this.rand) 
        {
