@@ -33,7 +33,7 @@ classmate:{firstName: "khaled",
 
 };  
 
-var mates={};
+var mates=[];
 for(var key in objects){
 mates[objects[key]]=objects[key];
 }

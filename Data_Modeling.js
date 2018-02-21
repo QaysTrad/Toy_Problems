@@ -62,3 +62,43 @@ for (var i = 0; i < array.length; i++) {
 return "Not matching"
 
 }
+//////////////////////////////////////////
+var numbers=[1,2,3,4];
+
+function each(array,func){
+	for (var i = 0; i < array.length; i++) {
+		func(array[i])
+	}
+}
+
+
+var sumSquares=function(array){
+	var total =0;
+
+	each(array,function(num){
+		total +=num;
+	})
+
+	return total;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
