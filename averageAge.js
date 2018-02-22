@@ -12,6 +12,7 @@
  ]; 
  function averageAge(people) { 
        // YOUR CODE HERE 
+       // so I just solved it ! cooool 
  }
 
  averageAge(people); // 43+36+44+24 = 36.74
