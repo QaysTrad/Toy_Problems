@@ -7,8 +7,12 @@
 
 	function nextItem(items, elem){
 		//your code is here
-	}
-
+		for (var i = 0; i < items.length; i++) {
+			if(items[i] === elem){
+				return items[i+1]
+			}
+		}
+}
 //  We need a function that can transform a number into a string.
 // 	What ways of achieving this do you know?
 // 	numberToString(123); // returns '123';`   
@@ -16,4 +20,5 @@
 
 	function numberToString(num) {
 	  //your code is here
+	  return num +""
 	}
