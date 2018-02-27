@@ -6,4 +6,16 @@
 
     function accum(input){
         //your code is here
+        var arr = input.split("");
+        var str = ""
+        for (var i = 0; i < arr.length; i++) {
+        	
+        	str += arr[i].toUpperCase()  ;
+        for (var j = 0; j < i; j++) {
+        	str+=arr[i]
+        }
+        str+="-"
+        	
+        }
+        return str
     }
