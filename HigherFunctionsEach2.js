@@ -12,8 +12,14 @@ pName(x); = > ['Jon', 'Omar', 'salwa']
 	}
     
 	function pName(argument) {
-		// your code is here
-	}
+        var allNames = {}
+		each(argument , function (argument,i) {
+            if(i %2 === 0 ){
+            allNames[i] = argument["name"] 
+        }
+    })
+        return allNames ; 
+}
 
 
 /*
@@ -44,5 +50,9 @@ printValue(obj_1); =>
     
     
 	function printValue(obj) {
-		// your code is here
+        var newArr = "" 
+		each(obj , function (obj , key ) {
+            newArr +=  obj + "\n"
+        })
+        return newArr 
 	}
